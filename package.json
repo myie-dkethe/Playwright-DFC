@@ -1,0 +1,20 @@
+{
+  "name": "playwright-dfc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "playwright-bdd": "^8.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
