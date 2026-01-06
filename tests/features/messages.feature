@@ -7,14 +7,11 @@ Scenario: Create new message
 	When the user clicks on return to messages
 	Then messages screen should be displayed 
 
-
 Scenario: Create new message - validation- mandatory message 
 	Given the user is on messages screen 
 	When the user does not complete all of the mandatory fields for send new message
 	Then mandatory fields missing error message is displayed for send new message
 	
-
-
 Scenario: Reply to message
 	Given the user is on messages screen 
 	When the user creates a new message and sends 
