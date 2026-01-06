@@ -1,6 +1,5 @@
 // Generated from: tests\features\messages.feature
 import { test } from "../../../tests/fixture/fixtures.js";
-
 test.describe('Messaging', () => {
 
   test('Create new message', async ({ Given, When, Then, messagePage, signInPage }) => { 
